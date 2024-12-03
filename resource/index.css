@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:wght@900&family=Play:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.logo .navbar-brand-logo img {
+  margin-left: 200px;
+  height: 80px;
+  width: 100px;
+}
+.logo .navbar-brand-name {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-outer {
+  width: 100%;
+  height: 700px;
+  border: 1px solid red;
+  margin-top: 90px;
+}
+
+.home-outer {
+  background-image: url("https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?t=st=1733234671~exp=1733238271~hmac=30b403f50455153de8f5c4a8fc290c28d9f2248d81f3cf788187257959f2d11a&w=996");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-header {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content-line {
+  width: 0.5%;
+  height: 100%;
+  background-color: red;
+  margin-top: 50px;
+}
+
+.content-desc {
+  width: 40%;
+  height: 100%;
+  color: white;
+  font-size: 15px;
+  font-weight: 200px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.content-desc .desc-desc {
+  margin-top: 100px;
+}
+.content-desc .btn {
+  height: 35px;
+  width: 200px;
+  background-color: red;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.content-desc .btn:hover {
+  background-color: Yellow;
+  color: black;
+}
+
+.home-sub-container {
+  width: 100%;
+  height: 250px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+
+
+.widgets-outer {
+  height: 100%;
+  width: 500px;
+  background-color: #e0decc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.widgets-outer .sub-outer {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: red;
+  margin-top: -80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.sub-outer i {
+  font-size: 25px;
+}
+
+.widgets-outer p {
+  text-align: center;
+}
+
+.services-outer {
+  width: 100%;
+  height: 700px;
+  border: 1px solid red;
+  background-image: url("https://img.freepik.com/free-vector/abstract-paper-style-background_23-2150744372.jpg?semt=ais_hybrid");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.services-outer .image-content {
+  height: 500px;
+  width: 800px;
+  background-image: url("https://images.unsplash.com/photo-1615873968403-89e068629265?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2UlMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 50px 180px;
+}
+.services-outer .service-content1 {
+  height: 400px;
+  width: 450px;
+  background-color: white;
+  margin: -350px 780px;
+  display: flex;
+  flex-direction: column;
+}
+.services-outer .service-content1 .heading {
+  margin-top: 40px;
+  text-align: center;
+  color: #0A2B43;
+}
+.services-outer .service-content1 .desc {
+  margin-top: 10px;
+  text-align: center;
+}
+.services-outer .service-content1 .Button {
+  height: 35px;
+  width: 200px;
+  background-color: red;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 20px 120px;
+}
+.services-outer .service-content1 .Button:hover {
+  background-color: Yellow;
+  color: black;
+}/*# sourceMappingURL=index.css.map */
