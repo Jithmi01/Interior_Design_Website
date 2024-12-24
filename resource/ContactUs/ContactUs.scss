@@ -1,0 +1,77 @@
+@mixin background{
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.contact-container {
+    .row {
+        margin-top: 50px;
+        gap: 50px; /* Adds 50px gap between contact info and form */
+
+        .col-md-5 {
+            @include background;
+
+           
+            h3 {
+                color: #fff; /* White text for headings */
+                margin-bottom: 15px;
+                font-size: 1.8rem; /* Larger font size */
+            }
+
+            p {
+                margin: 3px 0; /* Decrease spacing between lines */
+                color: #fff; /* White text for paragraphs */
+                line-height: 1.2; /* Decrease line spacing */
+                font-size: 1.2rem; /* Increase font size */
+            }
+
+            form {
+                .form-label {
+                    color: #343a40;
+                }
+
+                .form-control {
+                    border: 1px solid #ced4da;
+                    &:focus {
+                        border-color: #80bdff;
+                        box-shadow: 0 0 5px rgba(128, 189, 255, 0.8);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+
+.contact-info {
+    background-color: #343a40;
+    height: 450px;
+    color: #fff; /* Ensure text is white */
+    padding: 20px;
+    font-size: 1.2rem; /* Adjust font size */
+    line-height: 1.2; /* Decrease line spacing */
+}
+
+.footer {
+    margin-top: 200px; // Ensures it stays at the bottom of the page
+    font-size: 0.9rem;
+
+    a {
+        font-weight: bold;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
