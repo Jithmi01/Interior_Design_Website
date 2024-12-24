@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:wght@900&family=Play:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 .logo .navbar-brand-logo img {
   margin-left: 200px;
@@ -18,7 +19,7 @@
 }
 
 .home-outer {
-  background-image: url("https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?t=st=1733234671~exp=1733238271~hmac=30b403f50455153de8f5c4a8fc290c28d9f2248d81f3cf788187257959f2d11a&w=996");
+  background-image: url("https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg?t=st=1735037778~exp=1735041378~hmac=3c265ea51f35f751388fb7e49fe085bb91e096021e31d3c496212683d19c645d&w=996");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -101,7 +102,6 @@
   justify-content: space-around;
 }
 
-
 .widgets-outer {
   height: 100%;
   width: 500px;
@@ -134,7 +134,6 @@
 .services-outer {
   width: 100%;
   height: 700px;
-  border: 1px solid red;
   background-image: url("https://img.freepik.com/free-vector/abstract-paper-style-background_23-2150744372.jpg?semt=ais_hybrid");
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,6 +153,7 @@
   margin: -350px 780px;
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 .services-outer .service-content1 .heading {
   margin-top: 40px;
@@ -179,4 +179,287 @@
 .services-outer .service-content1 .Button:hover {
   background-color: Yellow;
   color: black;
+}
+
+.services-outer1 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.services-outer1 .service-outer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-outer1 .service-content1 {
+  height: 100%;
+  width: 95%;
+  display: flex;
+}
+.services-outer1 .service-content1 .box-content {
+  height: 100%;
+  width: 60%;
+}
+.services-outer1 .service-content1 .box-content .box1 {
+  height: 300px;
+  width: 300px;
+  background-image: url("https://img.freepik.com/free-photo/render-3d-contemporary-kitchen_1048-10510.jpg?t=st=1735055018~exp=1735058618~hmac=568dd67fd63f91bac938c92f2ce09894a6ddacf815c4d23f91e29e184a6845f3&w=740");
+  background-size: cover;
+  margin-left: 100px;
+  transition: 1s all;
+  position: relative;
+  overflow: hidden;
+}
+.services-outer1 .service-content1 .box-content .box1:hover {
+  transform: scale(1.2);
+}
+.services-outer1 .service-content1 .box-content .box1 .box-content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #0A2B43;
+  opacity: 0.7;
+  position: absolute;
+  left: 100%;
+  transition: 1s all;
+}
+.services-outer1 .service-content1 .box-content .box1 .box-content .h1 {
+  margin: 0;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.services-outer1 .service-content1 .box-content .box1 .box-content .p {
+  margin: 0;
+  margin-top: 20px;
+}
+.services-outer1 .service-content1 .box-content .box1:hover .box-content {
+  left: 0;
+}
+.services-outer1 .service-content1 .box-content .box2 {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 100px;
+  transition: 1s all;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://img.freepik.com/free-photo/3d-rendering-luxury-business-meeting-working-room-executive-office_105762-1993.jpg?t=st=1735056512~exp=1735060112~hmac=fd598d954136d06e7acb7f5fe92a6369855fd1f731e4aff4ebbd81e1b35c63b8&w=900");
+  margin-left: 450px;
+  margin-top: -100px;
+}
+.services-outer1 .service-content1 .box-content .box2:hover {
+  transform: scale(1.2);
+}
+.services-outer1 .service-content1 .box-content .box2 .box-content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #0A2B43;
+  opacity: 0.7;
+  position: absolute;
+  left: 100%;
+  transition: 1s all;
+}
+.services-outer1 .service-content1 .box-content .box2 .box-content .h1 {
+  margin: 0;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.services-outer1 .service-content1 .box-content .box2 .box-content .p {
+  margin: 0;
+  margin-top: 20px;
+}
+.services-outer1 .service-content1 .box-content .box2:hover .box-content {
+  left: 0;
+}
+.services-outer1 .service-content1 .box-content .box3 {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 100px;
+  transition: 1s all;
+  position: relative;
+  overflow: hidden;
+  background-image: url("https://img.freepik.com/free-photo/bangkok-thailand-august-12-2016-beautiful-luxury-living-room_1203-2867.jpg?t=st=1735056609~exp=1735060209~hmac=9b0dfd94aad6f16ccf75a9bf91828ac4b39ad3dabcbab7c6bd7a3717cb336d98&w=900");
+  margin-left: 100px;
+  margin-top: -100px;
+}
+.services-outer1 .service-content1 .box-content .box3:hover {
+  transform: scale(1.2);
+}
+.services-outer1 .service-content1 .box-content .box3 .box-content {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #0A2B43;
+  opacity: 0.7;
+  position: absolute;
+  left: 100%;
+  transition: 1s all;
+}
+.services-outer1 .service-content1 .box-content .box3 .box-content .h1 {
+  margin: 0;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.services-outer1 .service-content1 .box-content .box3 .box-content .p {
+  margin: 0;
+  margin-top: 20px;
+}
+.services-outer1 .service-content1 .box-content .box3:hover .box-content {
+  left: 0;
+}
+.services-outer1 .service-content1 .image-content1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20px;
+}
+.services-outer1 .service-content1 .image-content1 .content {
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer {
+  background: linear-gradient(to top, #2d3748, #1a202c);
+  color: #fff;
+  padding: 50px 0;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff; /* Adicionando uma borda inferior */
+  padding-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Centralizando os links */
+}
+
+.footer-links li {
+  margin: 0 10px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s; /* Adicionando transição de cor */
+}
+
+.footer-links a:hover {
+  color: #fddb3a; /* Mudando a cor ao passar o mouse */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  transition: transform 0.3s, background-color 0.3s; /* Adicionando transições */
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo sutil para os ícones */
+  padding: 10px;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.2); /* Mudando a cor do fundo ao passar o mouse */
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.contact-info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-info-item {
+  margin-right: 20px;
+}
+
+.contact-info-item:last-child {
+  margin-right: 0;
+}
+
+.contact-info-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.subscribe {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #fddb3a;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+  background-color: #facf00;
 }/*# sourceMappingURL=index.css.map */
